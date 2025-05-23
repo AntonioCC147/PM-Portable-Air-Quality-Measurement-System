@@ -14,6 +14,9 @@ target = "thumbv8m.main-none-eabihf"
 # Run probe-rs for flashing the executable on the board.
 runner = "probe-rs run --chip RP235x"
 
+[target.thumbv8m.main-none-eabihf]
+runner = "probe-rs run --chip RP235x"
+
 # This section is used to specify environment variables that should be set when
 # running Cargo commands.
 [env]
